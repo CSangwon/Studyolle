@@ -1,0 +1,26 @@
+{
+  "name": "static",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo Building frontend",
+    "check": "echo Checking frontend && npm run lint && npm run test",
+    "clean": "echo Cleaning frontend",
+    "lint": "echo Linting frontend",
+    "test": "echo Testing frontend"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@yaireo/tagify": "^4.12.0",
+    "bootstrap": "^4.6.1",
+    "cropper": "^4.1.0",
+    "font-awesome": "^4.7.0",
+    "jdenticon": "^3.1.1",
+    "jquery": "^3.6.0",
+    "jquery-cropper": "^1.0.1",
+    "moment": "^2.29.3",
+    "summernote": "^0.8.20"
+  }
+}
